@@ -1,4 +1,4 @@
-package com.cdmtransformadores.sig
+package com.cdm.sig
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

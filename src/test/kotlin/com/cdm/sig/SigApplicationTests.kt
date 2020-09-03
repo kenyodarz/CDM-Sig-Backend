@@ -1,4 +1,4 @@
-package com.cdmtransformadores.sig
+package com.cdm.sig
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

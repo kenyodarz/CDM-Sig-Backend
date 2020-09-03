@@ -1,12 +1,12 @@
-package com.cdmtransformadores.sig
+package com.cdm.sig
 
 import org.springframework.boot.builder.SpringApplicationBuilder
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 class ServletInitializer : SpringBootServletInitializer() {
 
-	override fun configure(application: SpringApplicationBuilder): SpringApplicationBuilder {
-		return application.sources(SigApplication::class.java)
-	}
+    override fun configure(application: SpringApplicationBuilder): SpringApplicationBuilder {
+        return application.sources(SigApplication::class.java)
+    }
 
 }
